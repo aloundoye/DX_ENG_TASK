@@ -1,0 +1,41 @@
+.component {
+    width: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 13px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  flex: 2;
+}
+.wrap {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .component {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  background: blue;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+}
