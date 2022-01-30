@@ -2,8 +2,6 @@ import Story from "../components/Story";
 import {Storyblok} from "../lib/storyblok";
 import {useRouter} from "next/router";
 
-const spaceId = 144152;
-
 export default function SearchPage({stories}) {
     const {query} = useRouter();
     return (
