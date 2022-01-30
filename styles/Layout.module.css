@@ -1,4 +1,12 @@
 .container {
-    text-align: center;
-    margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container input[type="text"] {
+  padding: 8px;
+  margin-right: 20px;
+  box-shadow: 0px 3px 3px #0000000d;
+  border: 1px solid #00000026;
+  border-radius: 10px;
 }
